@@ -1,1 +1,7 @@
-inventario.db
+# Bases de datos de SQLite
+*.db
+*.sqlite
+*.sqlite3
+# Archivos de caché
+__pycache__/
+*.pyc
