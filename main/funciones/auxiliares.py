@@ -13,7 +13,7 @@ def agregar_producto(conexion):
             categoria = input(" categoria: ").strip()
             if categoria:
                 break
-            print("❌ La categoria no puede estar vacio")
+            print("❌ La categoria no puede estar vacia")
     while True:
         try:
             precio = float(input(" Precio: $").replace(",","."))
